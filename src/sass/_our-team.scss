@@ -1,94 +1,53 @@
-// General class
-
-.container {
-    width: 100%;
-    width: 1360px;
-    padding-left: 30px;
-    padding-right: 30px;
+.team-container {
+  padding: 49px 30px 59px;
+  text-align: center;
+  background-color: var(--primary-background-color);
 }
 
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.team-subtitle {
+  margin-bottom: 16px;
+
+  font-size: 20px;
+  line-height: 1.65;
 }
 
-// section class
-
-.about-us {
-    padding: 50px 0;
-    display: block;
+.team-title {
+  margin-bottom: 34px;
 }
 
-.sup-tittle {
-    margin-top: 0px;
-    margin-bottom: 16px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    text-align: center;
-    color: #333333;
+.team-text {
+  margin-bottom: 45px;
+
+  font-size: 18px;
+  line-height: 1.56;
 }
 
-.tittle {
-    margin-top: 0px;
-    margin-bottom: 34px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 38px;
-    line-height: 48px;
-    text-align: center;
-    color: #333333;
+.team-list {
+  display: flex;
+
+  gap: 20px;
 }
 
-.about-text {
-    margin-top: 0px;
-    margin-bottom: 45px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    color: #333333;
+.team-thumb {
+  position: relative;
+  margin-bottom: 13px;
 }
 
-.card-list {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.link-list {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: var(--secondary-text-color);
 }
 
-.card-thumb {
-    display: block;
-    text-align: center;
-}
-
-.card-tittle {
-    margin-top: 0px;
-    margin-bottom: 12px;
-}
-
-.card-text {
-    margin-top: 0px;
-}
-
-.position-icon {
-    position: relative;
-    display: inline-block;
-}
-
-.social-icon {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
+.team-subtitle {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.27;
+  margin-bottom: 12px;
 }
