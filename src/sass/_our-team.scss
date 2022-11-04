@@ -1,0 +1,94 @@
+// General class
+
+.container {
+    width: 100%;
+    width: 1360px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+// section class
+
+.about-us {
+    padding: 50px 0;
+    display: block;
+}
+
+.sup-tittle {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #333333;
+}
+
+.tittle {
+    margin-top: 0px;
+    margin-bottom: 34px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+}
+
+.about-text {
+    margin-top: 0px;
+    margin-bottom: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-thumb {
+    display: block;
+    text-align: center;
+}
+
+.card-tittle {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.card-text {
+    margin-top: 0px;
+}
+
+.position-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.social-icon {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
