@@ -1,0 +1,29 @@
+.footer-container {
+  padding: 20px 0;
+  background-color: #333333;
+}
+
+.footer-container {
+  padding: 20px 0 16px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.icon-footer {
+  fill: #ffffff;
+}
+
+.footer-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: #ffffff;
+}
