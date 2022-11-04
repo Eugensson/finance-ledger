@@ -1,20 +1,20 @@
-.cases-container {
+.cases {
   padding: 50px 28px;
 }
 
-.cases-subtitle {
+.cases__subtitle {
   font-size: 20px;
   line-height: 1.65;
   text-align: center;
 }
 
-.cases-title {
+.cases__title {
   margin-bottom: 34px;
 
   text-align: center;
 }
 
-.cases-text {
+.cases__text {
   margin-bottom: 39px;
 
   font-size: 18px;
@@ -22,7 +22,7 @@
   text-align: center;
 }
 
-.cases-list {
+.cases__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

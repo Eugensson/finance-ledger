@@ -1,17 +1,17 @@
-.blog-container {
+.article {
   padding: 0;
 }
 
-.article-section {
+.article__section {
   display: flex;
 }
 
-.article-content {
+.article__content {
   padding: 112px 30px 112px 44px;
   background-color: var(--blog-background-color);
 }
 
-.time {
+.article__time {
   margin-bottom: 5px;
 
   font-size: 20px;
@@ -19,7 +19,7 @@
   color: var(--secondary-text-color);
 }
 
-.article-title {
+.article__title {
   margin-bottom: 26px;
 
   font-weight: 300;
@@ -28,7 +28,7 @@
   color: var(--secondary-text-color);
 }
 
-.article-text {
+.article__text {
   margin-bottom: 17px;
 
   font-size: 18px;

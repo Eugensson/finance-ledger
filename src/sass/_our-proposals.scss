@@ -1,14 +1,14 @@
-.proposals-container {
+.proposals {
   display: flex;
   padding: 0;
 }
 
-.proposals-box {
+.proposals__box {
   padding: 84px 44px 84px 30px;
   background-color: var(--third-background-color);
 }
 
-.proposals-text {
+.proposals__text {
   margin-bottom: 5px;
 
   font-weight: 400;
@@ -17,13 +17,13 @@
   color: var(--secondary-text-color);
 }
 
-.proposals-title {
+.proposals__title {
   margin-bottom: 26px;
 
   color: var(--secondary-text-color);
 }
 
-.proposals-article {
+.proposals__article {
   margin-bottom: 17px;
 
   font-weight: 400;
