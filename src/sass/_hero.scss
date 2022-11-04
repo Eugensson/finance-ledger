@@ -1,0 +1,26 @@
+.container-hero {
+  padding: 279px 0 284px 0;
+  background-image: url(../images/rectangle.jpg);
+}
+
+.hero-title {
+  margin-bottom: 25px;
+
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--text-hero-title);
+}
+
+.hero-text {
+  margin-bottom: 29px;
+
+  font-size: 22px;
+  line-height: 1.67;
+  text-align: center;
+  color: var(--text-hero-title);
+}
+
+.icon-hero {
+  margin-right: 5px;
+  fill: var(--secondary-text-color);
+}
