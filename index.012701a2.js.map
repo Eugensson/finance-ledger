@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,IAAIC,KAAK,CACPC,SAAU,IACVC,MAAM","sources":["src/index.js"],"sourcesContent":["AOS.init({\n  duration: 500,\n  once: true,\n});\n"],"names":["AOS","init","duration","once"],"version":3,"file":"index.012701a2.js.map"}
