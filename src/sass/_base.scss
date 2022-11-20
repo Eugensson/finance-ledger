@@ -98,3 +98,15 @@ ul {
   border: 0 solid transparent;
   border-radius: 5px;
 }
+
+[data-aos='new-animation'] {
+  // opacity: 0;
+  // transition-property: transform, opacity;
+
+  transform: translateX(-50vw);
+
+  &.aos-animate {
+    // opacity: 1;
+    transform: translateX(0);
+  }
+}
