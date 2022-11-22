@@ -117,6 +117,13 @@ ul {
   border-radius: 5px;
 }
 
+[data-aos=new-animation] {
+  transform: translateX(-50vw);
+}
+[data-aos=new-animation].aos-animate {
+  transform: translateX(0);
+}
+
 .header {
   position: relative;
 }
