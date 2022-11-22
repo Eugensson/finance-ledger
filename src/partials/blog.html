@@ -11,6 +11,23 @@
       </p>
       <a href="#" class="button__primary">Read Our Blog</a>
     </div>
-    <img src="./images/blog.jpg" alt="Workplace" width="680" height="517" />
+    <picture>
+      <source
+        srcset="
+          ./images/mobile-images/blog.jpg    1x,
+          ./images/mobile-images/blog@2x.jpg 2x
+        "
+        media="(max-width:768px)" />
+      <source
+        srcset="
+          ./images/tablet-images/blog.jpg    1x,
+          ./images/tablet-images/blog@2x.jpg 2x
+        "
+        media="(max-width:1359px)" />
+      <source
+        srcset="./images/blog.jpg 1x, ./images/blog@2x.jpg 2x"
+        media="(min-width:1360px)" />
+      <img src="./images/mobile-images/blog.jpg" alt="Workplace"
+    /></picture>
   </article>
 </section>
